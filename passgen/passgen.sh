@@ -14,15 +14,11 @@ for ((i = 0; i < passwordLength; i++)); do
   password+=${letterArr[rand]}
   if [ $i -eq 8 ]; then
     password+=${hyphen}
-    echo "Krok 8"
   elif [ $i -eq 16 ]; then
     password+=${hyphen}
-    echo "Krok 16"
   fi
 
-  echo "${rand}"
 done
-echo "${password}"
 
 if [[ ! "$password" =~ [0-9] ]]; then
   password="${password%?}"
