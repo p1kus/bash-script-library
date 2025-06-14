@@ -3,7 +3,7 @@
 
 # My collection of useful bash scripts
 
-Random set of bash scripts created for personal use
+Random set of bash scripts created for personal use, some may depend on other CLI tools (curl, jq for example)
 
 ## Contents
 * rename
