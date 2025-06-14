@@ -7,10 +7,11 @@ Random set of bash scripts created for personal use
 
 ## Contents
 * rename
-* [My website](https://example.com)
-* [My website](https://example.com)
-* [My website](https://example.com)
-* [My website](https://example.com)
-* [My website](https://example.com)
+* [Script](https://example.com)
+* [Script](https://example.com)
+* [Script](https://example.com)
+* [Script](https://example.com)
+* [Script](https://example.com)
+* [Script](https://example.com)
 
 
