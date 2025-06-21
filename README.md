@@ -6,10 +6,6 @@ Random set of bash scripts created for personal use, some may depend on other CL
 
 ## Contents
 
-- rename
-- [Script](https://example.com)
-- [Script](https://example.com)
-- [Script](https://example.com)
-- [Script](https://example.com)
-- [Script](https://example.com)
-- [Script](https://example.com)
+- [get-pihole-data](https://github.com/p1kus/bash-script-library/tree/main/get-pihole-data) - curl, jq, read from file to display data from pihole, supports config export with "export" argument
+- [rename](https://github.com/p1kus/bash-script-library/tree/main/rename) - Script to rename all png and jpgs in a folder with a prefix and a file count
+- [passgen](https://github.com/p1kus/bash-script-library/tree/main/passgen) - Strong password generator script
