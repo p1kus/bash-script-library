@@ -1,8 +1,10 @@
 #!bin/bash
 
+secret=$(cat secret)
+
 if [[ $1 == "export" ]]; then
   read sid csrf <<<$(curl -sk -X POST https://pi.hole/api/auth \
-    -d '{"password":"lsNFCtkCJGIfbSObp6fP/o8w/NhWiuapDfwpCWSY6ck="}' |
+    -d '{"password":"$secret"}' |
     jq -r '.session | "\(.sid) \(.csrf)"')
 
   curl -sk -X GET https://pi.hole/api/teleporter \
